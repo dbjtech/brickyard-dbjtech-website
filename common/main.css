@@ -1,0 +1,126 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+/* banner */
+#banner .banner-logo {
+	width: 100px;
+	margin-top: -8px;
+}
+
+/* override bootstrap */
+#banner.navbar.navbar-default {
+	margin-bottom: 0px;
+}
+#banner.navbar-default .navbar-nav > li > a {
+	color: rgb(64,64,64);
+}
+#banner.navbar-default .navbar-nav > li > a:hover {
+	color: #31bfb4;
+}
+#banner.navbar-default .navbar-nav > .open > a {
+	color: #31bfb4;
+	background-color: #e5fefc;
+}
+#banner .dropdown-menu > li > a:hover {
+	color: #31bfb4;
+	background-color: #e5fefc;
+}
+
+.btn-default {
+	border-color: #31bfb4;
+	color: #31bfb4;
+	display: block;
+	margin: auto;
+}
+.btn-default:hover, .btn-default:active:focus {
+	border-color: #31bfb4;
+	background-color: #31bfb4;
+	color: white;
+}
+
+/* footer */
+#footer .footer-logo {
+	width: 64px;
+	margin-top: 8px;
+}
+
+#footer {
+/*	position: absolute;
+	bottom: 0;
+	width: 100%;*/
+	background-color: #333;
+	color: gray;
+	font-size: 13px;
+	padding-top: 15px;
+}
+
+#footer .copyright {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#footer a {
+	color: lightgray;
+}
+
+#footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* common */
+#title {
+	display: none;
+}
+
+h1,
+.h1 {
+	font-size: 34px;
+}
+
+body {
+	font-family: "Microsoft YaHei";
+}
+
+.full-width {
+	width: 100%;
+}
+
+.filled-background {
+	background-color: #F1FAF9;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-justify {
+	text-align: justify;
+}
+
+.line-lightgray-bold {
+	border-bottom: 4px solid;
+	border-color: lightgray;
+	padding-bottom: 10px;
+}
+
+.separator-lg {
+	padding-top: 80px;
+}
+
+.separator-md {
+	padding-top: 40px;
+}

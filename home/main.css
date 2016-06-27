@@ -1,0 +1,62 @@
+.line-lightsalmon {
+	border-bottom: 2px solid;
+	border-color: lightsalmon;
+	padding-bottom: 10px;
+}
+
+.line-lightgreen {
+	border-bottom: 2px solid;
+	border-color: lightgreen;
+	padding-bottom: 10px;
+}
+
+.line-lightblue {
+	border-bottom: 2px solid;
+	border-color: lightblue;
+	padding-bottom: 10px;
+}
+
+.line-gold {
+	border-bottom: 2px solid;
+	border-color: gold;
+	padding-bottom: 10px;
+}
+
+.full-width-icon {
+	width: 100%;
+	max-width: 128px;
+	max-height: 128px;
+}
+
+.margin-top-bottom-40px {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.text-desc {
+	text-align: justify;
+	font-size: 11px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-desc span {
+	padding-right: 5px;
+}
+
+.text-icon-block {
+	/*margin-top: 40px;*/
+	margin-bottom: 40px;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-header {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 30px;
+}
