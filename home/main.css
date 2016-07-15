@@ -22,13 +22,17 @@
 	padding-bottom: 10px;
 }
 
+#home .carousel-inner img {
+	width: 100%;
+}
+
 #home .full-width-icon {
 	width: 100%;
 	margin-bottom: 20px;
 }
 
 #home .feature-block {
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	padding: 20px;
 	margin-bottom: 20px;
 }
