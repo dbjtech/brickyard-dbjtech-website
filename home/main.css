@@ -22,6 +22,10 @@
 	padding-bottom: 10px;
 }
 
+#home .color-orange {
+	color: #f37133;
+}
+
 #home .carousel-inner img {
 	width: 100%;
 }
@@ -53,6 +57,16 @@
 	max-height: 120px;
 }
 
+#home .text-sm {
+	max-width: 150px;
+	margin: auto;
+}
+
+#home .text-md {
+	max-width: 225px;
+	margin: auto;
+}
+
 #home .text-desc {
 	text-align: justify;
 	font-size: 11px;
@@ -60,6 +74,14 @@
 
 #home .text-desc span {
 	padding-right: 5px;
+}
+
+#home .core-tech-block .text-desc {
+	margin-left: 17px;
+}
+
+#home .core-tech-block .text-desc span {
+	margin-left: -17px;
 }
 
 #home .text-header {

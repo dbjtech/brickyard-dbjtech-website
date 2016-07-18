@@ -59,6 +59,7 @@
 
 #footer .product-icons {
 	text-align: center;
+	width: 100%;
 }
 
 #footer {
@@ -75,9 +76,17 @@
 	text-align: justify;
 }
 
+#footer .brand img {
+	margin-bottom: 8px;
+}
+
 #footer .copyright {
 	text-align: center;
 	margin-top: 10px;
+}
+
+#footer .sitemap {
+	margin-top: 28px;
 }
 
 #footer b {
