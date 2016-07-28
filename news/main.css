@@ -17,26 +17,35 @@
 	padding-bottom: 20px;
 }
 #news .hotnews:hover {
-	background-color: #e5fefc
+	background-color: #e5fefc;
 }
+
+#news .hotnews h2 {
+	font-size: 22px;
+}
+
 #news .hotnews p {
 	color: gray;
 	text-align: justify;
 }
 #news .hotnews .info,
 #news .hotnews .body {
-	display: none
+	display: none;
 }
 
 #news .recent * {
 	text-align: left;
 }
 #news .recent:hover {
-	background-color: #e5fefc
+	background-color: #e5fefc;
+}
+
+#news .recent h2 {
+	font-size: 22px;
 }
 #news .recent .thumbnail,
 #news .recent .body {
-	display: none
+	display: none;
 }
 #news .recent .readmore {
 	margin-top: -10px;
