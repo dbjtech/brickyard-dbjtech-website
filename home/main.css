@@ -50,6 +50,10 @@
 	max-height: 286px;
 }
 
+#home .feature-min-height{
+	min-height: 438px;
+}
+
 #home .core-tech-block {
 	max-width: 300px;
 	margin: auto;
