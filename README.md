@@ -2,14 +2,14 @@
 This repo is the source code of the [dbjtech official website](http://www.dbjtech.com)
 
 # How
-1. Download [brickyard](https://github.com/vincentngthu/brickyard), run
+1. Download [brickyard](https://github.com/vincentngthu/brickyard)
+
+1. Download this repo to brickyard_module/
 
 1. Install brickyard-cli
   ```bash
   npm i -g brickyard-cli
   ```
-
-1. Download this repo to brickyard_module/
 
 1. In the brickyard dir, run
 
