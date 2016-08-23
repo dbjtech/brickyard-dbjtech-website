@@ -6,10 +6,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 let htmls = glob.sync('./**/*.body.html', { cwd: __dirname })
 let config = {
-	output: {
-		// filename: 'main.[hash:6].js',
-		filename: 'main.js',
-	},
 	plugins: [],
 }
 

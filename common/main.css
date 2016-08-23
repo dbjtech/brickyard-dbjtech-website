@@ -39,13 +39,13 @@
 	background-color: #e5fefc;
 }
 
-.btn-default {
+#dbjtech-website .btn-default {
 	border-color: #31bfb4;
 	color: #31bfb4;
 	display: block;
 	margin: auto;
 }
-.btn-default:hover, .btn-default:active:focus {
+#dbjtech-website .btn-default:hover, .btn-default:active:focus {
 	border-color: #31bfb4;
 	background-color: #31bfb4;
 	color: white;
@@ -125,7 +125,7 @@ h1,
 	font-size: 34px;
 }
 
-body {
+body#dbjtech-website {
 	font-family: "Microsoft YaHei";
 }
 
