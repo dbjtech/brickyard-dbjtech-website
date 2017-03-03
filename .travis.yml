@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - "node"
+  - "7.0.0"
+
+before_script:
+  - npm i brickyard-cli -g
+
+script:
+  - brickyard build dbjtech-website
