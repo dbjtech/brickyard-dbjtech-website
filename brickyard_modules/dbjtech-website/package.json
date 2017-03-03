@@ -2,6 +2,7 @@
   "name": "brickyard-dbjtech-website",
   "version": "2.0.0",
   "description": "frontend module: website of www.dbjtech.com",
+  "brickyard-module-type": "frontend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

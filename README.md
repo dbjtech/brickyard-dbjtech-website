@@ -1,17 +1,16 @@
+# brickyard-dbjtech-website [![Build Status](https://travis-ci.org/dbjtech/brickyard-dbjtech-website.svg?branch=master)](https://travis-ci.org/dbjtech/brickyard-dbjtech-website)
+
 # What
 This repo is the source code of the [dbjtech official website](http://www.dbjtech.com)
 
 # How
-1. Download [brickyard](https://github.com/vincentngthu/brickyard)
-
-1. Download this repo to brickyard_module/
 
 1. Install brickyard-cli
   ```bash
   npm i -g brickyard-cli
   ```
 
-1. In the brickyard dir, run
+1. In the repo dir, run
 
   ```bash
   brickyard build dbjtech-website
@@ -29,7 +28,7 @@ This repo is the source code of the [dbjtech official website](http://www.dbjtec
 1. In the brickyard dir, run
 
   ```bash
-  brickyard build dbjtech-website --debug
+  brickyard build dbjtech-website --watch
   ```
 
 1. open http://localhost:8080/
