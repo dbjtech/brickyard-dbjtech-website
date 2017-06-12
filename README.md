@@ -32,3 +32,9 @@ This repo is the source code of the [dbjtech official website](http://www.dbjtec
   ```
 
 1. open http://localhost:8080/
+
+# Run with Docker
+
+  ```
+  docker run -p 8080:80 dbjtech/brickyard-dbjtech-website
+  ```
