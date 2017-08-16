@@ -1,0 +1,53 @@
+#about-us h1,
+#about-us h2,
+#about-us h3 {
+	text-align: center;
+}
+#about-us h1 {
+	white-space: nowrap;
+	color: gray;
+}
+
+#about-us img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+#about-us .text p {
+	text-align: justify;
+}
+#about-us .desc p {
+	color: gray;
+	text-align: justify;
+}
+
+#about-us .line-right {
+	border-right: 2px solid #A1B6C9;
+	padding-right: 20px;
+}
+#about-us .line-left {
+	border-left: 2px solid #A1B6C9;
+	padding-left: 20px;
+}
+@media (max-width: 767px) {
+	#about-us .line-right,
+	#about-us .line-left {
+		padding: 0;
+		border: 0px;
+	}
+}
+
+#about-us .line-right p,
+#about-us .line-left p {
+	color: #A1B6C9;
+}
+#about-us .line-right h3,
+#about-us .line-left h3 {
+	color: gray;
+	text-align: left;
+}
+
+#about-us #certificate img {
+	width: 80%;
+}
