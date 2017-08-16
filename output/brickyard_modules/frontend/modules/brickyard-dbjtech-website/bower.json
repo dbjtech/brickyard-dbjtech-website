@@ -1,0 +1,21 @@
+{
+  "name": "dbj-website",
+  "homepage": "https://github.com/dbjtech/brickyard",
+  "authors": [
+    "Zhanwei Wu <zhanwei.wu@dbjtech.com>"
+  ],
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "respond": "^1.4.2",
+    "bootstrap-autohidingnavbar": "^1.0.6"
+  }
+}

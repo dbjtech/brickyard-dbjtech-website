@@ -1,0 +1,26 @@
+{
+  "name": "dbjtech-website",
+  "description": "Command Line Interface for Brickyard.",
+  "main": "",
+  "authors": [
+    "Zhanwei Wu <zhanwei.wu@dbjtech.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "4.2.3",
+  "author": {
+    "name": "vincentngthu"
+  },
+  "dependencies": {
+    "respond": "^1.4.2",
+    "bootstrap-autohidingnavbar": "^1.0.6"
+  },
+  "devDependencies": {}
+}
