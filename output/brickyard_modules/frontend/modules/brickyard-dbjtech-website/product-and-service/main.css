@@ -1,0 +1,140 @@
+.line-lightgray {
+	border-bottom: 2px solid;
+	border-color: lightgray;
+	padding-bottom: 10px;
+}
+
+#product p {
+	text-align: center;
+}
+
+#product img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+#product .h1 {
+	font-size: 90px;
+	font-family: "Helevtica", "Microsoft JhengHei", "SimHei";
+	color: #404040;
+}
+
+#product .h1 span{
+	padding-bottom: 20px;
+	display: block;
+	font-size: 30px;
+	color: #757575;
+}
+
+#product .h2 {
+	padding-top: 100px;
+	font-size: 40px;
+	color: #757575;
+}
+
+#product .h3 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 40px;
+	color: #b5b5b5;
+}
+
+#product .h4 {
+	margin-bottom: 20px;
+	font-size: 25px;
+	color: #757575;
+}
+
+#product .line-through {
+	font-size: 20px;
+	border-bottom: 2px solid;
+}
+
+#product .specification p {
+	text-align: left;
+    border-bottom: 2px solid;
+    font-size: 18px;
+    color: #757575;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#product .specification-value {
+	position: absolute;
+	left: 40%;
+}
+
+#service .h1 {
+	font-size: 42px;
+	color: gray;
+	margin-bottom: 40px;
+}
+
+#service .h2 {
+	font-size: 25px;
+	margin: 5px;
+	color: gray;
+	text-align: center;
+}
+
+#service .text {
+	margin-top: 20px;
+	color: gray;
+	text-align: justify;
+}
+
+#service .circle-icon {
+	display: block;
+	margin: auto;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+}
+
+#service .circle-icon .text-middle {
+	color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+	display: none;
+}
+
+#service .circle-icon:hover .text-middle {
+	display: block;
+}
+
+#service .circle-icon.icon1 {
+	background-image: url(img/circle-1.png);
+}
+
+#service .circle-icon:hover.icon1 {
+	background-image: url(img/circle-green-1.jpg);
+}
+
+#service .circle-icon.icon2 {
+	background-image: url(img/circle-2.png);
+}
+
+#service .circle-icon:hover.icon2 {
+	background-image: url(img/circle-green-2.jpg);
+}
+
+#service .circle-icon.icon3 {
+	background-image: url(img/circle-3.png);
+}
+
+#service .circle-icon:hover.icon3 {
+	background-image: url(img/circle-green-3.jpg);
+}
+
+#service img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}

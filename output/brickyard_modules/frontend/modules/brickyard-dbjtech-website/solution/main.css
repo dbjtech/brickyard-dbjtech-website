@@ -1,0 +1,25 @@
+#solution img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+#solution .hr {
+	border-bottom: 1px gray dashed;
+}
+
+#solution .h2 {
+	text-align: center;
+	color: gray;
+}
+
+#solution .h1 {
+	color: gray;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#solution .text {
+	margin: 50px 0px 50px 50px;
+	font-size: 28px;
+}

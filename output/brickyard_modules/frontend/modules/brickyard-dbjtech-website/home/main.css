@@ -1,0 +1,104 @@
+.line-lightsalmon {
+	border-bottom: 2px solid;
+	border-color: lightsalmon;
+	padding-bottom: 10px;
+}
+
+.line-lightgreen {
+	border-bottom: 2px solid;
+	border-color: lightgreen;
+	padding-bottom: 10px;
+}
+
+.line-lightblue {
+	border-bottom: 2px solid;
+	border-color: lightblue;
+	padding-bottom: 10px;
+}
+
+.line-gold {
+	border-bottom: 2px solid;
+	border-color: gold;
+	padding-bottom: 10px;
+}
+
+#home .color-orange {
+	color: #f37133;
+}
+
+#home .color-first-title {
+	color: #404040;
+}
+
+#home .carousel-inner img {
+	width: 100%;
+}
+
+#home .full-width-icon {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#home .feature-block {
+	border: 1px solid lightgray;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#home .feature-block .full-width-icon {
+	max-width: 295px;
+	max-height: 286px;
+}
+
+#home .feature-min-height{
+	min-height: 438px;
+}
+
+#home .core-tech-block {
+	max-width: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+#home .core-tech-block .full-width-icon {
+	max-width: 160px;
+	max-height: 160px;
+}
+
+#home .text-sm {
+	max-width: 150px;
+	margin: auto;
+}
+
+#home .text-md {
+	max-width: 225px;
+	margin: auto;
+}
+
+#home .text-desc {
+	text-align: justify;
+	font-size: 14px;
+}
+
+#home .text-desc span {
+	padding-right: 5px;
+}
+
+#home .core-tech-block .text-desc {
+	margin-left: 8px;
+	min-width: 234px;
+}
+
+#home .core-tech-block .text-desc span {
+	margin-left: -17px;
+}
+
+#home .text-header {
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 30px;
+}

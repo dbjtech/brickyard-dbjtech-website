@@ -1,0 +1,39 @@
+#join-us .h1 {
+	color: gray;
+	text-align: center;
+}
+
+#join-us .h2 {
+	font-size: 25px;
+	border-left: 3px solid lightseagreen;
+	padding-left: 20px;
+	margin: 10px 0 10px 0;
+}
+
+#join-us .h3 {
+	font-size: 15px;
+	color: gray;
+	margin: 20px 0 10px 0;
+}
+
+#join-us .text {
+	padding-left: 80px;
+}
+
+#join-us .collapse-show{
+	display: none;
+}
+
+#join-us .collapsed .collapse-show{
+	margin: 10px 0 0 -40px;
+	display: initial;
+}
+
+#join-us .collapse-hide{
+	margin: 10px 0 0 -40px;
+	display: initial;
+}
+
+#join-us .collapsed .collapse-hide{
+	display: none;
+}
