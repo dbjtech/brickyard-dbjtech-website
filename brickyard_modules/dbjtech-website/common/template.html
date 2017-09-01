@@ -8,11 +8,11 @@
 	<meta name="renderer" content="webkit">
 </head>
 <body id="dbjtech-website">
-${require('html!./banner.html')}
+${require('html-loader!./banner.html')}
 
 <!-- 此网站由webpack生成，下面内容为页面引入，参考https://webpack.github.io/docs/context.html -->
-${require('html?interpolate!../' + htmlWebpackPlugin.options.path + '.body.html')}
+${require('html-loader?interpolate!../' + htmlWebpackPlugin.options.path + '.body.html')}
 
-${require('html!./footer.html')}
+${require('html-loader!./footer.html')}
 </body>
 </html>
