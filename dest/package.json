@@ -1,27 +1,51 @@
 {
-  "_from": "brickyard-cli",
-  "_id": "brickyard-cli@4.4.0",
-  "_inBundle": false,
-  "_integrity": "sha1-p8s0vF+ZLPzvEPBJwgjo7UjbDtc=",
+  "_args": [
+    [{
+        "raw": "brickyard-cli",
+        "scope": null,
+        "escapedName": "brickyard-cli",
+        "name": "brickyard-cli",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "G:\\brickyard-dbjtech-website"
+    ]
+  ],
+  "_cnpm_publish_time": 1505872881371,
+  "_from": "brickyard-cli@latest",
+  "_hasShrinkwrap": false,
+  "_id": "brickyard-cli@4.5.2",
+  "_inCache": true,
   "_location": "/brickyard-cli",
+  "_nodeVersion": "8.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/brickyard-cli-4.5.2.tgz_1505872881252_0.1302938701119274"
+  },
+  "_npmUser": {
+    "name": "vincentngthu",
+    "email": "vincent.ng.thu@gmail.com"
+  },
+  "_npmVersion": "4.6.1",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
     "raw": "brickyard-cli",
-    "name": "brickyard-cli",
+    "scope": null,
     "escapedName": "brickyard-cli",
+    "name": "brickyard-cli",
     "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "spec": "latest",
+    "type": "tag"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "http://registry.npm.taobao.org/brickyard-cli/download/brickyard-cli-4.4.0.tgz",
-  "_shasum": "a7cb34bc5f992cfcef10f049c208e8ed48db0ed7",
+  "_resolved": "https://registry.npm.taobao.org/brickyard-cli/download/brickyard-cli-4.5.2.tgz",
+  "_shasum": "1084375bc4847df9dda43575962336ca2bb785fe",
+  "_shrinkwrap": null,
   "_spec": "brickyard-cli",
-  "_where": "C:\\",
+  "_where": "G:\\brickyard-dbjtech-website",
   "author": {
     "name": "vincentngthu"
   },
@@ -31,7 +55,6 @@
   "bugs": {
     "url": "https://github.com/dbjtech/brickyard-cli/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bluebird": "^3.5.0",
     "find-node-modules": "^1.0.4",
@@ -55,7 +78,6 @@
     "webpack-dev-server": "^2.7.1",
     "webpack-hot-middleware": "^2.18.2"
   },
-  "deprecated": false,
   "description": "Command Line Interface for Brickyard.",
   "devDependencies": {
     "eslint": "^4.5.0",
@@ -104,13 +126,29 @@
     "jquery": "^1.12.4",
     "wowjs": "^1.1.3"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "1084375bc4847df9dda43575962336ca2bb785fe",
+    "size": 379426,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/brickyard-cli/download/brickyard-cli-4.5.2.tgz"
+  },
+  "gitHead": "a902da057b3862ed0b44b5cd76fa9442e34efd8c",
   "homepage": "https://github.com/dbjtech/brickyard-cli#readme",
   "license": "ISC",
   "main": "",
+  "maintainers": [{
+    "name": "vincentngthu",
+    "email": "vincent.ng.thu@gmail.com"
+  }],
   "name": "webpack-dbjtech-website",
+  "optionalDependencies": {},
+  "publish_time": 1505872881371,
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbjtech/brickyard-cli.git"
   },
-  "version": "4.4.0"
+  "scripts": {},
+  "version": "4.5.2"
 }
