@@ -17,9 +17,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/install",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/install",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\install\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\install\\index.js",
 		"mainDest": "buildtask-install\\index.js",
 		"type": "buildtask"
 	},
@@ -35,9 +35,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/build-webpage",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/build-webpage",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\build-webpage\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\build-webpage\\index.js",
 		"mainDest": "buildtask-build-webpage\\index.js",
 		"type": "buildtask"
 	},
@@ -51,9 +51,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/watch",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/watch",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\watch\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\watch\\index.js",
 		"mainDest": "buildtask-watch\\index.js",
 		"type": "buildtask"
 	},
@@ -71,9 +71,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/babel",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/babel",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\babel\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\babel\\index.js",
 		"mainDest": "buildtask-webpack-babel\\index.js",
 		"type": "buildtask"
 	},
@@ -90,9 +90,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/build",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/build",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\build\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\build\\index.js",
 		"mainDest": "buildtask-webpack-build\\index.js",
 		"type": "buildtask"
 	},
@@ -108,9 +108,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/common-shim",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/common-shim",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\common-shim\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\common-shim\\index.js",
 		"mainDest": "buildtask-webpack-common-shim\\index.js",
 		"type": "buildtask"
 	},
@@ -127,9 +127,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/css",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/css",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\css\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\css\\index.js",
 		"mainDest": "buildtask-webpack-css\\index.js",
 		"type": "buildtask"
 	},
@@ -143,9 +143,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/ng-annotate",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/ng-annotate",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\ng-annotate\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\ng-annotate\\index.js",
 		"mainDest": "buildtask-webpack-ng-annotate\\index.js",
 		"type": "buildtask"
 	},
@@ -159,9 +159,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/ng-cache",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/ng-cache",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\ng-cache\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\ng-cache\\index.js",
 		"mainDest": "buildtask-webpack-ng-cache\\index.js",
 		"type": "buildtask"
 	},
@@ -176,9 +176,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/resource",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/resource",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\resource\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\resource\\index.js",
 		"mainDest": "buildtask-webpack-resource\\index.js",
 		"type": "buildtask"
 	},
@@ -197,18 +197,18 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/scss",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/scss",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\scss\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\scss\\index.js",
 		"mainDest": "buildtask-webpack-scss\\index.js",
 		"type": "buildtask"
 	},
 	{
 		"name": "buildtask-webpack-split-vendor",
 		"description": "split vendor js from frontend main.js",
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/split-vendor",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/buildtask/webpack/split-vendor",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\split-vendor\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\buildtask\\webpack\\split-vendor\\index.js",
 		"mainDest": "buildtask-webpack-split-vendor\\index.js",
 		"type": "buildtask"
 	},
@@ -226,9 +226,9 @@
 		"scripts": {
 			"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"path": "C:/Users/squal/AppData/Roaming/npm/node_modules/brickyard-cli/brickyard_modules/framework/webserver/webpack-dev-server",
+		"path": "D:/nodejs/node_modules/brickyard-cli/brickyard_modules/framework/webserver/webpack-dev-server",
 		"main": "index.js",
-		"mainSrc": "C:\\Users\\squal\\AppData\\Roaming\\npm\\node_modules\\brickyard-cli\\brickyard_modules\\framework\\webserver\\webpack-dev-server\\index.js",
+		"mainSrc": "D:\\nodejs\\node_modules\\brickyard-cli\\brickyard_modules\\framework\\webserver\\webpack-dev-server\\index.js",
 		"mainDest": "webpack-dev-server\\index.js",
 		"type": "buildtask"
 	}
