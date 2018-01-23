@@ -28,7 +28,7 @@
 		"description": "网页编译基础流程",
 		"devDependencies": {
 			"merge-stream": "^1.0.1",
-			"del": "^2.2.2",
+			"del": "^3.0.0",
 			"gulp-changed": "^1.3.0",
 			"gulp-ng-annotate": "^1.1.0"
 		},
