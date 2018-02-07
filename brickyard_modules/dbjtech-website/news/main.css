@@ -52,9 +52,40 @@
 	margin-bottom: 10px;
 }
 
-
 #news-view .thumbnail,
 #news-view .abstract,
 #news-view .readmore {
 	display: none
 }
+
+#news-view .certificate-wrapper,
+#news-view .award-wrapper {
+	position: relative;
+	left: 50%;
+}
+
+#news-view .certificate-wrapper {
+	margin-left: -215px;
+}
+
+#news-view .award-wrapper {
+	margin-left: -530px;
+}
+
+#news-view .body .flex-item {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+
+#news-view .main-box {
+	text-align: center;
+}
+
+#news-view .body .content-img img {
+	width: 600px;
+}
+
+
+
