@@ -631,7 +631,8 @@ body#dbjtech-website {
 }
 
 #news-view .certificate-wrapper,
-#news-view .award-wrapper {
+#news-view .award-wrapper,
+#news-view .emc-photo {
 	position: relative;
 	left: 50%;
 }
@@ -642,6 +643,10 @@ body#dbjtech-website {
 
 #news-view .award-wrapper {
 	margin-left: -530px;
+}
+
+#news-view .emc-photo {
+	margin-left: -375px;
 }
 
 #news-view .body .flex-item {
