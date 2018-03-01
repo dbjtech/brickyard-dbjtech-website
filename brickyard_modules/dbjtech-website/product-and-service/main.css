@@ -100,7 +100,7 @@
 #service .circle-icon .text-middle {
 	color: white;
     width: 80%;
-    margin: auto;
+    margin: 80px 0 0 24px;
     text-align: center;
 	display: none;
 }
