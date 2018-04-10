@@ -60,7 +60,8 @@
 
 #news-view .certificate-wrapper,
 #news-view .award-wrapper,
-#news-view .emc-photo {
+#news-view .emc-photo,
+#news-view .academician-wrapper{
 	position: relative;
 	left: 50%;
 }
@@ -75,6 +76,10 @@
 
 #news-view .emc-photo {
 	margin-left: -375px;
+}
+
+#news-view .academician-wrapper{
+	margin: 50px 0 0 -525px;
 }
 
 #news-view .body .flex-item {
