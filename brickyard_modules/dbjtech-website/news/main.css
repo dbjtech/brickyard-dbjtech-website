@@ -94,7 +94,22 @@
 }
 
 #news-view .body .content-img img {
-	width: 600px;
+	max-width: 600px;
+	width: 100%;
+}
+
+#news-view .body .text-left {
+	text-align: left;
+	margin: 0 10px 10px 10px;
+}
+
+@media (max-width: 375px) {
+	#news-view h2 {
+		font-size: 22px!important;
+	}
+	#news-view h3 {
+		font-size: 20px!important;
+	}
 }
 
 
