@@ -374,19 +374,19 @@ body#dbjtech-website {
 }
 
 #service .circle-icon.icon1 {
-	background-image: url(brickyard-dbjtech-website/product-and-service/img/circle-1.cac069.png);
+	background-image: url(../lib/brickyard-dbjtech-website/product-and-service/img/circle-1.cac069.png);
 }
 
 #service .circle-icon:hover.icon1 {
-	background-image: url(brickyard-dbjtech-website/product-and-service/img/circle-green-1.d05008.jpg);
+	background-image: url(../lib/brickyard-dbjtech-website/product-and-service/img/circle-green-1.d05008.jpg);
 }
 
 #service .circle-icon.icon2 {
-	background-image: url(brickyard-dbjtech-website/product-and-service/img/circle-2.9a7b95.png);
+	background-image: url(../lib/brickyard-dbjtech-website/product-and-service/img/circle-2.9a7b95.png);
 }
 
 #service .circle-icon:hover.icon2 {
-	background-image: url(brickyard-dbjtech-website/product-and-service/img/circle-green-2.744280.jpg);
+	background-image: url(../lib/brickyard-dbjtech-website/product-and-service/img/circle-green-2.744280.jpg);
 }
 
 #service .circle-icon.icon3 {
@@ -394,7 +394,7 @@ body#dbjtech-website {
 }
 
 #service .circle-icon:hover.icon3 {
-	background-image: url(brickyard-dbjtech-website/product-and-service/img/circle-green-3.37e300.jpg);
+	background-image: url(../lib/brickyard-dbjtech-website/product-and-service/img/circle-green-3.37e300.jpg);
 }
 
 #service img {
