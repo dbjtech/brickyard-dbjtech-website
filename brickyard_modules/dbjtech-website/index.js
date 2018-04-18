@@ -1,7 +1,7 @@
 
 //ie
 require('html5shiv')
-require('respond')
+require('imports-loader?this=>window!respond.js/dest/respond.src.js')
 ;(function() {
 	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 		var msViewportStyle = document.createElement('style')
