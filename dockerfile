@@ -1,8 +1,8 @@
 FROM dbjtech/brickyard-cli as build-stage
 
-COPY ./brickyard_modules /brickyard-dbjtech-website/brickyard_modules
+COPY ./brickyard_modules /brickyard-app/brickyard_modules
 
-WORKDIR /brickyard-dbjtech-website/
+WORKDIR /brickyard-app/
 
 RUN brickyard ls dbjtech-website && brickyard build dbjtech-website -vv
 
@@ -10,6 +10,8 @@ FROM nginx:alpine
 
 RUN apk add tzdata --update --no-cache && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo "Asia/Shanghai" /etc/localtime && apk del tzdata
 
-COPY --from=build-stage ./brickyard-dbjtech-website/output/www /usr/share/nginx/html
+COPY --from=build-stage ./brickyard-app/output/www /usr/share/nginx/html
+
+VOLUME /usr/share/nginx/html
 
 EXPOSE 80
