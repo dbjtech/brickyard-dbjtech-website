@@ -58,28 +58,9 @@
 	display: none
 }
 
-#news-view .certificate-wrapper,
-#news-view .award-wrapper,
-#news-view .emc-photo,
-#news-view .academician-wrapper{
-	position: relative;
-	left: 50%;
-}
-
-#news-view .certificate-wrapper {
-	margin-left: -215px;
-}
-
-#news-view .award-wrapper {
-	margin-left: -530px;
-}
-
-#news-view .emc-photo {
-	margin-left: -375px;
-}
-
-#news-view .academician-wrapper{
-	margin: 50px 0 0 -525px;
+#news-view .margin-auto {
+	margin: 0 auto;
+	width: 1000px;
 }
 
 #news-view .body .flex-item {
