@@ -65,8 +65,9 @@
 }
 
 #news-view .margin-auto {
+	display: block;
 	margin: 0 auto;
-	width: 1000px;
+	width: 100%;
 }
 
 #news-view .body .flex-item {
