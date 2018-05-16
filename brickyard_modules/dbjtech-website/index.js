@@ -37,6 +37,10 @@ $(function() {
 	var title = $('#title, h1, h2, h3').first().text()
 	$(document).attr('title', title)
 
+	// set copyright
+	var copyright = '©2016-' + new Date().getFullYear() + ' DBJ Technologies (Zhuhai) Co., Ltd. 粤ICP备12019898号'
+	$('.copyright').html(copyright)
+
 	// auto hide navbar
 	$('.navbar-fixed-top').autoHidingNavbar()
 

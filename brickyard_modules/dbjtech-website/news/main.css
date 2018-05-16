@@ -1,3 +1,9 @@
+#news .badge-warning, #news-view .badge-warning{
+	color: #212529;
+	background-color: #ffc107;
+	margin: 0px 10px 5px 10px;
+}
+
 #news img {
 	width: 100%;
 }
@@ -59,8 +65,9 @@
 }
 
 #news-view .margin-auto {
+	display: block;
 	margin: 0 auto;
-	width: 1000px;
+	width: 100%;
 }
 
 #news-view .body .flex-item {
