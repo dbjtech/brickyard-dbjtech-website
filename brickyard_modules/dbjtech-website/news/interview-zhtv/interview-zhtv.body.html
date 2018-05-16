@@ -3,14 +3,7 @@
 	<div class="separator-md"></div>
 	<div class="container">
 		<div class="row">
-			${require('html-loader!./article.html')}
-			<input id="zhtv-video-src" type="hidden" value="${require('file-loader?outputPath=lib/&name=[name].[hash:6].[ext]!./zhtv.mp4')}">
-			<script>
-				var zhtvUrl = $('#zhtv-video-src').val()
-				var video = $('#zhtv-video')[0]
-				$('source', video).attr('src', zhtvUrl)
-				video.load()
-			</script>
+			${require('html-loader?interpolate!./article.html')}
 		</div>
 		<div class="separator-md"></div>
 		<div class="row">
