@@ -1,4 +1,4 @@
-FROM dbjtech/brickyard-cli as build-stage
+FROM dbjtech/brickyard-cli:build-essential as build-stage
 
 COPY ./brickyard_modules /brickyard-app/brickyard_modules
 

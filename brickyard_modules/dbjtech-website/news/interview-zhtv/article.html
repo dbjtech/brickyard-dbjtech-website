@@ -10,7 +10,7 @@
 
 <div class="body">
 <video id="zhtv-video" class="margin-auto" style="max-width: 768px;" controls>
-	<source type="video/mp4">
+	<source src="${require('file-loader?outputPath=lib/&name=[name].[hash:6].[ext]!./zhtv.mp4')}" type="video/mp4">
 	Your browser does not support the video tag.
 </video>
 <p>珠海德百祺科技有限公司。这是一家研发推广精准定位技术的企业，目前产品已广泛销售到北美及东南亚市场。</p>
