@@ -31,6 +31,9 @@
 
 		<div class="row">
 			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./ieee-emc-society-2018/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
 				${require('html-loader!./canada-academician/article.html')}
 			</div>
 			<div class="col-xs-12 recent wow fadeInUp">
@@ -70,7 +73,7 @@
 				${require('html-loader!./creative-tech/article.html')}
 			</div>
 			<div class="col-xs-12 recent wow fadeInUp">
-				${require('html-loader!./interview-zhtv/article.html')}
+				${require('html-loader?interpolate!./interview-zhtv/article.html')}
 			</div>
 			<div class="col-xs-12 recent wow fadeInUp">
 				${require('html-loader!./1000plan/article.html')}
