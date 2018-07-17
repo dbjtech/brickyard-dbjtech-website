@@ -38,7 +38,7 @@ $(function() {
 	$(document).attr('title', title)
 
 	// set copyright
-	var copyright = '©2016-' + new Date().getFullYear() + ' DBJ Technologies (Zhuhai) Co., Ltd. 粤ICP备12019898号'
+	var copyright = $('.copyright').html().replace(/^©2016/, '©2016-' + new Date().getFullYear())
 	$('.copyright').html(copyright)
 
 	// auto hide navbar
