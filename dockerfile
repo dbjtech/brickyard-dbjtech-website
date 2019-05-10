@@ -1,4 +1,7 @@
-FROM dbjtech/brickyard-cli:build-essential as build-stage
+FROM node:10-alpine as build-stage
+
+RUN npm i -g brickyard-cli@5.1.3
+RUN npm i node-sass --registry=http://registry.npm.taobao.org
 
 COPY ./brickyard_modules /brickyard-app/brickyard_modules
 
