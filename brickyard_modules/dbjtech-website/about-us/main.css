@@ -20,6 +20,7 @@
 #about-us .desc p {
 	color: gray;
 	text-align: justify;
+	padding: 0 10px;
 }
 
 #about-us .line-right {
