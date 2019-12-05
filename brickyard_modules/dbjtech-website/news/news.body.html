@@ -6,15 +6,20 @@
 	crossorigin="anonymous"
 ></script>
 <script>
-	$.get('https://linketech-website.linketech.now.sh/news').done(function(res) {
-		var newsDataList = res.data.filter(function(item) {
-			return item.project === 'dbj'
-		})
+	$.get('https://linketech.cn/api/news').done(function(res) {
+		var newsDataList = res.data
+			.filter(function(item) {
+				return item.project === 'dbj'
+			})
+			.sort((a, b) => a.event_time - b.event_time)
 
 		newsDataList.forEach(function(item) {
 			var titleNode = $('<h2></h2>').text(item.title)
+			if (item.isSticky) {
+				titleNode.append('<span class="badge badge-warning">NEW</span>')
+			}
 			var dateNode = $('<p class="info"></p>').text(
-				'发布日期：' + moment(item.timestamp * 1000).format('YYYY-MM-DD'),
+				'发布日期：' + moment(item.event_time * 1000).format('YYYY-MM-DD'),
 			)
 			var summaryNode = $('<p class="abstract"></p>').text(item.summary)
 
@@ -22,8 +27,8 @@
 				// 防止 content 为 null
 				var replacedContent = new String(item.content).replace(
 					// 不能用正则字面量，因为 webpack 编译时会转义 \/ 变为 /，无法正常匹配
-					new RegExp('src="\\/img', 'g'),
-					'src="https://linketech-website.linketech.now.sh/img',
+					new RegExp('src="/api/img', 'g'),
+					'src="https://linketech.cn/api/img',
 				)
 				var contentNode = $(replacedContent)
 
@@ -34,7 +39,7 @@
 					$('#news-detail-container').html('')
 				})
 				var buttonContainer = $(
-					'<div class=" col-md-offset-5 col-md-2"></div>',
+					'<div class="col-md-offset-5 col-md-2"></div>',
 				).append(returnButton)
 				var separatorMdNode = $('<div class="separator-md"></div>')
 				var buttonRow = $('<div class="row"></div>').append(buttonContainer)
@@ -57,8 +62,11 @@
 			var newsItemNode = $(
 				'<div class="col-xs-12 recent wow fadeInUp"></div>',
 			).append(titleNode, dateNode, summaryNode, detailNode)
-			$('#news-list').append(newsItemNode)
+			$('#news-list').prepend(newsItemNode)
 		})
+
+		$('#news-list').css('display', 'block')
+		$('.loading').css('display', 'none')
 	})
 </script>
 
@@ -94,7 +102,88 @@
 		</p>
 		<div class="separator-lg"></div>
 
-		<div id="news-list" class="row"></div>
+		<div id="news-list" class="row" style="display: none;">
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./2019-tour-meeting/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./tourism-association/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./gti-members/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./2019-tech-enterprise/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./innovation-enterprises/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./high-tech-products/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./creative-product-2018/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./iso9001/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./identification-of-technology-center/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./ieee-emc-society-2018/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./technology-enterprise/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./high-tech-enterprises/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./canada-academician/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./outstanding-award/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./cmcc-5g-partner/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./innovation-team/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./ieee-emc-society/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./top10entrepreneur/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./exhibition/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./creative-star/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./creative-competition/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./inaugurate/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader!./creative-tech/article.html')}
+			</div>
+			<div class="col-xs-12 recent wow fadeInUp">
+				${require('html-loader?interpolate!./interview-zhtv/article.html')}
+			</div>
+		</div>
+
+		<div class="loading">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
 
 		<div class="separator-lg"></div>
 	</div>
