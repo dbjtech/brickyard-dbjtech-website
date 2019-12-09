@@ -1,10 +1,5 @@
 <div id="title">公司动态</div>
 
-<script
-	src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
-	integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
-	crossorigin="anonymous"
-></script>
 <script>
 	$.get('https://linketech.cn/api/news').done(function(res) {
 		var newsDataList = res.data
