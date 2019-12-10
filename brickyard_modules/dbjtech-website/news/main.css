@@ -5,6 +5,11 @@
 	margin: 0px 10px 5px 10px;
 }
 
+#news p,
+#news-view p {
+	font-size: 16px;
+}
+
 #news img {
 	width: 100%;
 }
