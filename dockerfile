@@ -15,6 +15,4 @@ RUN apk add tzdata --update --no-cache && cp /usr/share/zoneinfo/Asia/Shanghai /
 
 COPY --from=build-stage ./brickyard-app/output/www /usr/share/nginx/html
 
-VOLUME /usr/share/nginx/html
-
 EXPOSE 80
