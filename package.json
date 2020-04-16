@@ -1,0 +1,7 @@
+{
+	"scripts": {
+		"start": "brickyard build dbjtech-website --watch",
+		"build": "brickyard build dbjtech-website && cp ./leaf.json ./output/www",
+		"deploy": "npm run build && cd ./output/www && leaf"
+	}
+}
