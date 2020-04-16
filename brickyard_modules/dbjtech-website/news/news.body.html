@@ -1,35 +1,35 @@
 <div id="title">公司动态</div>
 
 <script>
-	$.get('https://linketech.cn/api/news').done(function(res) {
+	$.get('https://www.linketech.cn/api/news').done(function (res) {
 		var newsDataList = res.data
-			.filter(function(item) {
+			.filter(function (item) {
 				return item.project === 'dbj'
 			})
 			.sort((a, b) => a.event_time - b.event_time)
 
-		newsDataList.forEach(function(item) {
+		newsDataList.forEach(function (item) {
 			var titleNode = $('<h2></h2>').text(item.title)
 			if (item.isSticky) {
 				titleNode.append('<span class="badge badge-warning">NEW</span>')
 			}
 			var dateNode = $('<p class="info"></p>').text(
-				'发布日期：' + moment(item.event_time * 1000).format('YYYY-MM-DD'),
+				'发布日期：' + moment(item.event_time).unix().format('YYYY-MM-DD'),
 			)
 			var summaryNode = $('<p class="abstract"></p>').text(item.summary)
 
-			var detailNode = $('<a class="readmore">查看全文</a>').click(function() {
+			var detailNode = $('<a class="readmore">查看全文</a>').click(function () {
 				// 防止 content 为 null
 				var replacedContent = new String(item.content).replace(
 					// 不能用正则字面量，因为 webpack 编译时会转义 \/ 变为 /，无法正常匹配
 					new RegExp('src="/api/img', 'g'),
-					'src="https://linketech.cn/api/img',
+					'src="https://www.linketech.cn/api/img',
 				)
 				var contentNode = $(replacedContent)
 
 				var returnButton = $(
 					'<a class="btn btn-default btn-md" type="button">返回</a>',
-				).click(function() {
+				).click(function () {
 					$('#news-list-container').show()
 					$('#news-detail-container').html('')
 				})
