@@ -1,7 +1,7 @@
 //ie
 require('html5shiv')
 require('imports-loader?this=>window!respond.js/dest/respond.src.js')
-;(function() {
+;(function () {
 	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 		var msViewportStyle = document.createElement('style')
 		msViewportStyle.appendChild(
@@ -12,7 +12,7 @@ require('imports-loader?this=>window!respond.js/dest/respond.src.js')
 })()
 
 var $ = require('jquery')
-var moment = require('moment')
+// var moment = require('moment')
 require('bootstrap')
 require('bootstrap-autohidingnavbar')
 require('bootstrap/dist/css/bootstrap.css')
@@ -30,11 +30,9 @@ require('./join-us/main.css')
 require('./about-us/main.css')
 require('./news/main.css')
 
-$(function() {
+$(function () {
 	// set title
-	var title = $('#title, h1, h2, h3')
-		.first()
-		.text()
+	var title = $('#title, h1, h2, h3').first().text()
 	$(document).attr('title', title)
 
 	// set copyright

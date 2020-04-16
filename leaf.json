@@ -1,0 +1,6 @@
+{
+	"name": "dbjtech",
+	"env": {
+		"PROXY_404_TO_ROOT": true
+	}
+}

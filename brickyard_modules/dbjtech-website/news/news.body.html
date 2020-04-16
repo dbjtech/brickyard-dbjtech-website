@@ -1,5 +1,6 @@
 <div id="title">公司动态</div>
 
+<script src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
 <script>
 	$.get('https://www.linketech.cn/api/news').done(function (res) {
 		var newsDataList = res.data
@@ -14,7 +15,7 @@
 				titleNode.append('<span class="badge badge-warning">NEW</span>')
 			}
 			var dateNode = $('<p class="info"></p>').text(
-				'发布日期：' + moment(item.event_time).unix().format('YYYY-MM-DD'),
+				'发布日期：' + moment(item.event_time * 1000).format('YYYY-MM-DD'),
 			)
 			var summaryNode = $('<p class="abstract"></p>').text(item.summary)
 
