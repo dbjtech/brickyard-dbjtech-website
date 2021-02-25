@@ -1,6 +1,7 @@
 {
 	"name": "dbjtech",
 	"env": {
-		"PROXY_404_TO_ROOT": true
+		"PROXY_404_TO_ROOT": true,
+		"STATIC_FILES_MAX_AGE": 3600
 	}
 }

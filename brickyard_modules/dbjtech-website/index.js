@@ -39,7 +39,7 @@ $(function () {
 	var copyright = $('.copyright')
 		.html()
 		.replace(/^©2016/, '©2016-' + new Date().getFullYear())
-	$('.copyright').html(copyright)
+	$('.copyright').first().html(copyright)
 
 	// auto hide navbar
 	$('.navbar-fixed-top').autoHidingNavbar()
